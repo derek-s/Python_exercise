@@ -37,8 +37,5 @@ class Solution:
         else:
             return False
 
-
-
-
 if __name__ == "__main__":
-    print(Solution().checkSumOfSquareNumbers(5))
+    print(Solution().checkSumOfSquareNumbers(18))
