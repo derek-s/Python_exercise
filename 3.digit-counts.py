@@ -21,16 +21,12 @@ class Solution:
         # write your code here
         lk = []
         tk = []
-        nCount = 0
         for i in range(n+1):
             lk.append(i)
         for x in lk:
             for i in str(x):
                 tk.append(i)
-        for z in tk:
-            if(k == int(z)):
-                nCount += 1
-        return nCount
+        return tk.count(str(k))
         
 if __name__ == "__main__":
     Solution().digitCounts(12, 1)
