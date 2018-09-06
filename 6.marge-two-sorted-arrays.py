@@ -11,17 +11,18 @@
 # 合并两个排序的整数数组A和B变成一个新的数组。
 # 给出A=[1,2,3,4]，B=[2,4,5,6]，返回 [1,2,2,3,4,4,5,6]
 
+
 class Solution:
     """
     @param A: sorted integer array A
     @param B: sorted integer array B
     @return: A new sorted integer array
     """
+
     def mergeSortedArray(self, A, B):
         # write your code here
-        print(sorted(A + B))
-
+        return sorted(A + B)
 
 
 if __name__ == "__main__":
-    Solution().mergeSortedArray([1,2,3,4],[2,4,5,6])
+    Solution().mergeSortedArray([1, 2, 3, 4], [2, 4, 5, 6])
